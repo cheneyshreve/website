@@ -10,8 +10,6 @@ class Home extends Component {
         Evidence informed decision making. <small>Big Data. Innovative Solutions.</small>
        </PageHeader>
       </section>
-
-
     );
   }
 }
