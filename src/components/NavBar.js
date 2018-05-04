@@ -1,49 +1,41 @@
 import React, { Component } from 'react';
-import { Route, Link } from 'react-router-dom';
-import { Navbar,Nav, NavItem,NavDropdown, MenuItem, PageHeader } from 'react-bootstrap';
+import { Link } from 'react-router-dom';
+import './Navbar.css';
 
-
-class NavBar extends Component {
+class Navbar extends Component {
   render() {
     return (
-  <Navbar inverse collapseOnSelect>
-    <Navbar.Header>
-      <Navbar.Brand>
-        <a href="#brand">TKC</a>
-      </Navbar.Brand>
-      <Navbar.Toggle />
-    </Navbar.Header>
-    <Navbar.Collapse>
-      <Nav>
-        <NavItem eventKey={1} href="#">
-        <Link to='/'>Home </Link>
-        </NavItem>
-        <NavDropdown eventKey={3} title="Solutions" id="basic-nav-dropdown">
-        <Link to='/' className ="hazards">
-          <MenuItem eventKey={3.1}>Hazard Assessments</MenuItem>
-        </Link>
-        <Link to='/' className="analysis">
-          <MenuItem eventKey={3.2}>Data Analysis</MenuItem>
-        </Link>
-        <Link to="/" className="services">
-          <MenuItem eventKey={3.3}>Services</MenuItem>
-        </Link>
-        </NavDropdown>
-      </Nav>
-      <Nav pullRight>
-        <NavItem eventKey={1} href="#">
-         Blog
-        </NavItem>
-        <NavItem eventKey={2} href="#">
-          Contact
-        </NavItem>
-      </Nav>
-    </Navbar.Collapse>
-  </Navbar>
-);
-}
+
+      <nav className="navbar navbar-expand-md navbar-dark bg-dark mb-4">
+
+        <div className="container">
+        <ul className="navbar-nav mr-auto">
+        <li className="nav-item active">
+          <Link className="navbar-brand" to="/">TKC Solutions</Link>
+        </li>
+        </ul>
+            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+              <span className="navbar-toggler-icon"></span>
+            </button>
+          <div className="collapse navbar-collapse" id="navbarCollapse">
+            <ul className="navbar-nav mr-auto">
+              <li className="nav-item active">
+                <Link className="nav-link" to="/">Home <span class="sr-only">(current)</span></Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/about">About</Link>
+              </li>
+            </ul>
+            <form className="form-inline mt-2 mt-md-0">
+              <input className="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search"/>
+              <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+            </div>
+          </div>
+        </nav>
+    );
+  }
 
 
 }
-
-export default NavBar;
+export default Navbar;
