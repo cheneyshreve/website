@@ -3,6 +3,7 @@ import { Media, PageHeader, Image,Grid, Row, Col } from 'react-bootstrap';
 import Navbar from './Navbar.js';
 import Footer from './Footer.js';
 import Jumbotron from './Jumbotron.js';
+import WorldMap from './WorldMap.js';
 
 class About extends Component {
   render() {
@@ -14,11 +15,12 @@ class About extends Component {
      <div className="container">
 
         <PageHeader className="aboutPageHeader">
-          Evidence informed decision making. <small>Innovative Solutions.</small>
+          Where we work.
          </PageHeader>
 
-         <h2>About us.</h2>
-         <p>Awesome details will go here!</p>
+         <WorldMap />
+
+
 
       </div>
   <Footer/>
