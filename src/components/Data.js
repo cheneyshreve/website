@@ -1,18 +1,26 @@
 import React, { Component } from 'react';
-import { Media, PageHeader } from 'react-bootstrap';
+import { Media, PageHeader, Image,Grid, Row, Col } from 'react-bootstrap';
+import Navbar from './Navbar.js';
+import Footer from './Footer.js';
+import Jumbotron from './Jumbotron.js';
 
 class Data extends Component {
   render() {
     return (
-      <section className="data">
-      <PageHeader>
-        Data to build resilience. <small>Let data and sustainability be your guide.</small>
-       </PageHeader>
-      </section>
-      
+  <div>
+    <Navbar />
+    <Jumbotron title="Data" subtitle="Put it to work for you." />
+
+     <div className="container">
+
+        <PageHeader className="homePageHeader">
+          Data collection & Analysis. <small>Building connectivity.</small>
+         </PageHeader>
 
 
-
+      </div>
+  <Footer/>
+  </div>
     );
   }
 }

@@ -25,6 +25,15 @@ class Navbar extends Component {
               <li className="nav-item">
                 <Link className="nav-link" to="/about">About</Link>
               </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/data">Data</Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/contact">Contact</Link>
+              </li>
+              <li className="nav-item">
+                <Link className="nav-link" to="/blog">Blog</Link>
+              </li>
             </ul>
             <form className="form-inline mt-2 mt-md-0">
               <input className="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search"/>

@@ -4,22 +4,21 @@ import Navbar from './Navbar.js';
 import Footer from './Footer.js';
 import Jumbotron from './Jumbotron.js';
 
-class Home extends Component {
+class About extends Component {
   render() {
     return (
   <div>
     <Navbar />
-    <Jumbotron title="Welcome" subtitle="What problem shall we solve?" />
+    <Jumbotron title="About" subtitle="TKC Solutions." />
 
      <div className="container">
 
-        <PageHeader className="homePageHeader">
+        <PageHeader className="aboutPageHeader">
           Evidence informed decision making. <small>Innovative Solutions.</small>
          </PageHeader>
 
-         <h2>Welcome</h2>
-         <p>Get the right data for your project.</p>
-         <p>Real-time, historical, or blended.</p>
+         <h2>About us.</h2>
+         <p>Awesome details will go here!</p>
 
       </div>
   <Footer/>
@@ -29,4 +28,4 @@ class Home extends Component {
 }
 
 
-export default Home;
+export default About;
