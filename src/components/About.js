@@ -13,14 +13,21 @@ class About extends Component {
     <Jumbotron title="About" subtitle="TKC Solutions." />
 
      <div className="container">
-
         <PageHeader className="aboutPageHeader">
           Where we work.
          </PageHeader>
 
-         <WorldMap />
-
-
+      <div className="container-fluid"/>
+        <div className="row">
+          <div className="col-lg-3">
+           <p className='media-body'>
+             About text to be added here.
+             </p>
+          </div>
+        <div className="col-lg-4">
+            <WorldMap />
+        </div>
+      </div>
 
       </div>
   <Footer/>
