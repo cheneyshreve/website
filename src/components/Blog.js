@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Navbar from './Navbar.js';
+import NavBar from './NavBar.js';
 import Footer from './Footer.js';
 import Jumbotron from './Jumbotron.js';
 import './Blog.css';
@@ -8,7 +8,7 @@ class Blog extends Component {
   render() {
     return (
   <div>
-    <Navbar />
+    <NavBar />
     <Jumbotron title="Blog" subtitle="Things we care about. Stories to share." />
 
      <div className="container">
