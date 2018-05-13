@@ -1,4 +1,7 @@
 img.thumbnailImage {
   width: 200px;
   height: 200px;
+  margin-top: 1rem;
+  margin-right: 0.5rem;
+  margin-bottom: 0.5rem;
 }

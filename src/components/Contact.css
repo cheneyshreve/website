@@ -12,8 +12,13 @@ ul {
    padding: 0;
 }
 
+svg {
+  margin-left: 1rem;
+  margin-right: 0.5rem;
+}
 
-h1,h4 {
+
+.contact {
   margin-left: 1rem;
 }
 

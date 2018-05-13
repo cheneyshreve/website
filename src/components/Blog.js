@@ -49,6 +49,13 @@ class Blog extends Component {
            </div>
         <br />
         <br />
+        <aside id="sticky-social">
+            <ul>
+                <li><a href="https://twitter.com/cmshreve01" className="entypo-twitter" target="_blank" rel="noopener noreferrer"><span>Twitter</span></a></li>
+                <li><a href="https://www.linkedin.com/in/cheney-shreve-982a9512/" className="entypo-linkedin" target="_blank" rel="noopener noreferrer"><span>LinkedIn</span></a></li>
+                <li><a href="https://github.com/cheneyshreve" className="entypo-github" target="_blank" rel="noopener noreferrer"><span>GitHub</span></a></li>
+            </ul>
+        </aside>
      <Footer/>
   </div>
     );
