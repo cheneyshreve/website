@@ -17,15 +17,15 @@ class Blog extends Component {
              <div className="col-md-6">
                <div className="card flex-md-row mb-4 box-shadow h-md-250">
                  <div className="card-body d-flex flex-column align-items-start">
-                   <strong className="d-inline-block mb-2 text-primary">Social & Environmental Equity</strong>
+                   <strong className="d-inline-block mb-2 text-primary">Social & Environmental Sciences</strong>
                    <h3 className="mb-0">
-                     <a className="text-dark" href="#">Gender & Disaster Mortality</a>
+                     <a className="text-dark" href="/gender">Gender & Disasters</a>
                    </h3>
                    <div className="mb-1 text-muted">May 2018</div>
                    <p className="card-text mb-auto">Blog discussing gender & disaster mortality will go here.</p>
-                   <a href="#">Continue reading</a>
+                   <a href="/gender">Continue reading</a>
                  </div>
-                 <img className="card-img-right flex-auto d-none d-lg-block" data-src="holder.js/200x250?theme=thumb" alt="Hurricane Image" className="thumbnailImage" src={process.env.PUBLIC_URL + '/nasa_thumbnail.jpg'} data-holder-rendered="true"/>
+                 <img alt="" className="thumbnailImage" src={process.env.PUBLIC_URL + '/nasa_thumbnail.jpg'} />
                </div>
              </div>
            </div>
@@ -36,17 +36,19 @@ class Blog extends Component {
                        <div className="card-body d-flex flex-column align-items-start">
                          <strong className="d-inline-block mb-2 text-primary">Geosciences</strong>
                          <h3 className="mb-0">
-                           <a className="text-dark" href="#">Drones & Hazard Mapping</a>
+                           <a className="text-dark" href="/drones">Drones & Hazard Mapping</a>
                          </h3>
                          <div className="mb-1 text-muted">May 2018</div>
-                         <p className="card-text mb-auto">Blog about using drones to map hazards will go here.</p>
-                         <a href="#">Continue reading</a>
+                         <p className="card-text mb-auto">Using drones to create better hazards maps.</p>
+                         <a href="/drones">Continue reading</a>
                        </div>
-                        <img class="card-img-right flex-auto d-none d-lg-block" data-src="holder.js/200x250?theme=thumb" className="thumbnailImage" alt="Drone image" src={process.env.PUBLIC_URL + '/drone_thumbnail.jpg'} data-holder-rendered="true"/>
+                        <img className="thumbnailImage" alt="" src={process.env.PUBLIC_URL + '/drone_thumbnail.jpg'} data-holder-rendered="true"/>
                      </div>
                    </div>
                  </div>
            </div>
+        <br />
+        <br />
      <Footer/>
   </div>
     );

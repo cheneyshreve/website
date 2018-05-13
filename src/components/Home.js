@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Media, PageHeader, Image,Grid, Row, Col } from 'react-bootstrap';
+import { PageHeader } from 'react-bootstrap';
 import NavBar from './NavBar.js';
 import Footer from './Footer.js';
 import Jumbotron from './Jumbotron.js';
