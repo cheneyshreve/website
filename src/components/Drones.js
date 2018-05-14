@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import NavBar from './NavBar.js';
 import Footer from './Footer.js';
 import Jumbotron from './Jumbotron.js';
-import './Drones.css';
+
 
 class Drones extends Component {
   render() {
