@@ -49,15 +49,14 @@ svg {
    left: 100%;
 }
 
-#sticky-social a[class*="twitter"],
-#sticky-social a[class*="twitter"]:hover,
-#sticky-social a[class*="twitter"] span { background: #00aced; }
+#sticky-social a[className*="twitter"],
+#sticky-social a[className*="twitter"]:hover,
+#sticky-social a[className*="twitter"] span { background: #00aced; }
 
+#sticky-social a[className*="linkedin"],
+#sticky-social a[className*="linkedin"]:hover,
+#sticky-social a[className*="linkedin"] span { background: #007bb6; }
 
-#sticky-social a[class*="linkedin"],
-#sticky-social a[class*="linkedin"]:hover,
-#sticky-social a[class*="linkedin"] span { background: #007bb6; }
-
-#sticky-social a[class*="github"],
-#sticky-social a[class*="github"]:hover,
-#sticky-social a[class*="github"] span { background: #32506d; }
+#sticky-social a[className*="github"],
+#sticky-social a[className*="github"]:hover,
+#sticky-social a[className*="github"] span { background: #32506d; }
