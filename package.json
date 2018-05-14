@@ -1,7 +1,8 @@
 {
-  "name": "tkc",
+  "name": "website",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://github.com/cheneyshreve/website",
   "dependencies": {
     "d3-geo": "^1.10.0",
     "react": "^16.3.2",
