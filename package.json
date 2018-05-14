@@ -2,10 +2,8 @@
   "name": "website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://github.com/cheneyshreve/website",
   "dependencies": {
     "d3-geo": "^1.10.0",
-    "gh-pages": "^1.1.0",
     "react": "^16.3.2",
     "react-bootstrap": "^0.32.1",
     "react-dom": "^16.3.2",
