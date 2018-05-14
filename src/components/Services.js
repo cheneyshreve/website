@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import { PageHeader } from 'react-bootstrap';
 import NavBar from './NavBar.js';
 import Footer from './Footer.js';
 import Jumbotron from './Jumbotron.js';
+import './Services.css';
 
 class Services extends Component {
   render() {
@@ -13,18 +13,16 @@ class Services extends Component {
 
      <div className="container-fluid">
 
-        <PageHeader className="homePageHeader">
-          Data collection & Analysis. <small>Building connectivity.</small>
-         </PageHeader>
+    <div>
+        <h4>Data Services</h4>
+        <br/>
+        <p><strong>Data collection</strong>: High resolution imagery can be difficult or expensive to obtain. Moderate to high resolution optical satellite imagery is suited for providing a baseline map, but it often leaves unresolvable data gaps due to cloud cover or sensor failures. Drones have emerged as a viable, lower cost solution to for obtaining high resolution images apprporiate for mapping land cover features and terrain. We offer image collection and analysis using the latest drone technologies.</p>
+        <br />
 
-      <div>
-         <h4>Data acquisition & analysis</h4>
-         <p>Drone specs will go here.</p>
-         <p>Geomorphology & field assessments.</p>
-         <p>GIS services will go here.</p>
-         <p>Report writing details will go here.</p>
-         <p>Speaking & training details will go here.</p>
-         <br />
+        <p><strong>Data analysis</strong>: Finding and analyzing the relevant ancillary datasets for your project can be a duanting task; there are hundreds of data repositories and search engines to choose from. We offer basic geographic information services (GIS) to find, process, organize, and analyze social and environmental datasets.</p>
+        <br />
+
+        <p><strong>Other services</strong>: We are available for speaking and training engagements, as well as providing support for authoring technical reports and other communications.</p>
       </div>
 
       </div>

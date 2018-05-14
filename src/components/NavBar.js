@@ -11,7 +11,7 @@ class NavBar extends Component {
         <div className="container">
           <ul className="navbar-nav mr-auto">
             <li className="nav-item active">
-              <Link className="navbar-brand" to="/">TKC Solutions</Link>
+              <Link className="navbar-brand" to="/">Earth Data Innovations</Link>
             </li>
           </ul>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">

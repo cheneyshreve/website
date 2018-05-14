@@ -19,7 +19,7 @@ class Blog extends Component {
                  <div className="card-body d-flex flex-column align-items-start">
                    <strong className="d-inline-block mb-2 text-primary">Social & Environmental Sciences</strong>
                    <h3 className="mb-0">
-                     <a className="text-dark" href="/gender">Gender & Disasters</a>
+                     <a className="text-dark">Gender & Disasters</a>
                    </h3>
                    <div className="mb-1 text-muted">May 2018</div>
                    <p className="card-text mb-auto">Blog discussing gender & disaster mortality will go here.</p>
@@ -36,7 +36,7 @@ class Blog extends Component {
                        <div className="card-body d-flex flex-column align-items-start">
                          <strong className="d-inline-block mb-2 text-primary">Geosciences</strong>
                          <h3 className="mb-0">
-                           <a className="text-dark" href="/drones">Drones & Hazard Mapping</a>
+                           <a className="text-dark">Drones & Hazard Mapping</a>
                          </h3>
                          <div className="mb-1 text-muted">May 2018</div>
                          <p className="card-text mb-auto">Using drones to create better hazards maps.</p>

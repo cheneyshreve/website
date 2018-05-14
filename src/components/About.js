@@ -10,7 +10,7 @@ class About extends Component {
     return (
   <div>
     <NavBar />
-    <Jumbotron title="About" subtitle="TKC Solutions." />
+    <Jumbotron title="About" subtitle="Earth Data Innovations | EDI " />
 
      <div className="container">
         <PageHeader className="aboutPageHeader">
@@ -22,7 +22,7 @@ class About extends Component {
         <div className="row">
           <div className="col-lg-3">
            <p className='media-body'>
-             We are a team of scientists with expertise in geosciences, remote sensing/GIS, and software development. We specialize in mapping and analysis of environmental hazards using the latest technologies.
+             EDI is a team of scientists with expertise in geosciences, remote sensing/GIS, and software development. We specialize in mapping and analysis of environmental hazards using the latest technologies.
              </p>
 
           <p><strong>Scientific Publications</strong></p>

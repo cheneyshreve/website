@@ -1,0 +1,8 @@
+.container-fluid {
+  text-align: justify;
+  margin: 0 auto 0 auto;
+}
+
+p {
+  font-size: 1rem;
+}

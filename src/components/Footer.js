@@ -8,7 +8,7 @@ class Footer extends Component {
 
       <footer className="footer">
         <div className="container">
-          <span className="text-muted">TKC Solutions &#169; {new Date().getFullYear()}</span>
+          <span className="text-muted">Earth Data Innovations | EDI &#169; {new Date().getFullYear()}</span>
         </div>
       </footer>
 
