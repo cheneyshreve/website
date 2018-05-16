@@ -22,7 +22,7 @@ class Blog extends Component {
                      <a className="text-dark">Gender & Disasters</a>
                    </h3>
                    <div className="mb-1 text-muted">May 2018</div>
-                   <p className="card-text mb-auto">Blog discussing gender & disaster mortality will go here.</p>
+                   <p className="card-text mb-auto">Why disaggregated data collection matters for disasters.</p>
                    <a href="/gender">Continue reading</a>
                  </div>
                  <img alt="" className="thumbnailImage" src={process.env.PUBLIC_URL + '/nasa_thumbnail.jpg'} />
