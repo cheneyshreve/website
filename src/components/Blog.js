@@ -3,6 +3,8 @@ import NavBar from './NavBar.js';
 import Footer from './Footer.js';
 import Jumbotron from './Jumbotron.js';
 import './Blog.css';
+import nasa_thumbnail from '../images/nasa_thumbnail.jpg'
+import drone_thumbnail from '../images/drone_thumbnail.jpg'
 
 class Blog extends Component {
   render() {
@@ -25,7 +27,7 @@ class Blog extends Component {
                    <p className="card-text mb-auto">Why disaggregated data collection matters for disasters.</p>
                    <a href="/gender">Continue reading</a>
                  </div>
-                 <img alt="" className="thumbnailImage" src={process.env.PUBLIC_URL + '/nasa_thumbnail.jpg'} />
+                 <img alt="" className="thumbnailImage" src={nasa_thumbnail} />
                </div>
              </div>
            </div>
@@ -42,7 +44,7 @@ class Blog extends Component {
                          <p className="card-text mb-auto">Using drones to create better hazards maps.</p>
                          <a href="/drones">Continue reading</a>
                        </div>
-                        <img className="thumbnailImage" alt="" src={process.env.PUBLIC_URL + '/drone_thumbnail.jpg'} data-holder-rendered="true"/>
+                        <img className="thumbnailImage" alt="" src={drone_thumbnail} data-holder-rendered="true"/>
                      </div>
                    </div>
                  </div>

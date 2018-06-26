@@ -34,7 +34,7 @@ class WorldMap extends Component {
   handleMarkerClick(markerIndex) {
     console.log("Marker: ", this.state.cities[markerIndex])
   }
-  componentDidMount() {
+  componentWillMount() {
     fetch("/world-110m.json")
       .then(response => {
         if (response.status !== 200) {
