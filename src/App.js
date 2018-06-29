@@ -8,6 +8,7 @@ import Blog from './components/Blog.js';
 import Gender from './components/Gender.js';
 import Drones from './components/Drones.js';
 import Contact from './components/Contact.js';
+import Software from './components/Software.js';
 
 
 
@@ -23,6 +24,7 @@ class App extends Component {
        <Route path='/blog' component={Blog}/>
        <Route path='/gender' component={Gender}/>
        <Route path='/drones' component={Drones}/>
+       <Route path='/software' component={Software}/>
      </div>
     </Router>
 

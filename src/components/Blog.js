@@ -3,8 +3,6 @@ import NavBar from './NavBar.js';
 import Footer from './Footer.js';
 import Jumbotron from './Jumbotron.js';
 import './Blog.css';
-import nasa_thumbnail from '../images/nasa_thumbnail.jpg'
-import drone_thumbnail from '../images/drone_thumbnail.jpg'
 
 class Blog extends Component {
   render() {
@@ -14,7 +12,21 @@ class Blog extends Component {
     <Jumbotron title="Blog" subtitle="Things we care about. Stories to share." />
 
      <div className="container">
-
+     <div className="row mb-2">
+             <div className="col-md-6">
+               <div className="card flex-md-row mb-4 box-shadow h-md-250">
+                 <div className="card-body d-flex flex-column align-items-start">
+                   <strong className="d-inline-block mb-2 text-primary">Software</strong>
+                   <h3 className="mb-0">
+                     <a className="text-dark">Recent projects</a>
+                   </h3>
+                   <div className="mb-1 text-muted">June 2018</div>
+                   <p className="card-text mb-auto">Simple web tool with React & Rails-5 API</p>
+                   <a href="/software">Continue reading</a>
+                 </div>
+               </div>
+             </div>
+           </div>
      <div className="row mb-2">
              <div className="col-md-6">
                <div className="card flex-md-row mb-4 box-shadow h-md-250">
@@ -27,11 +39,9 @@ class Blog extends Component {
                    <p className="card-text mb-auto">Why disaggregated data collection matters for disasters.</p>
                    <a href="/gender">Continue reading</a>
                  </div>
-                 <img alt="" className="thumbnailImage" src={nasa_thumbnail} />
                </div>
              </div>
            </div>
-
            <div className="row mb-2">
                    <div className="col-md-6">
                      <div className="card flex-md-row mb-4 box-shadow h-md-250">
@@ -44,11 +54,11 @@ class Blog extends Component {
                          <p className="card-text mb-auto">Using drones to create better hazards maps.</p>
                          <a href="/drones">Continue reading</a>
                        </div>
-                        <img className="thumbnailImage" alt="" src={drone_thumbnail} data-holder-rendered="true"/>
                      </div>
                    </div>
                  </div>
-           </div>
+        </div>
+
         <br />
         <br />
         <aside id="sticky-social">
