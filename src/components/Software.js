@@ -23,7 +23,7 @@ class Software extends Component {
                   <p>Nearing the end of my training in software development with Bloc, one of our projects is to build an app that will serve as a "proof-of-concept" and later grow into the basis for our own open source project. Coming into software development from working in environmental management and sustainable development, I often found colleagues were frustrated with the overcomplexity of different data warehouses. Phrases like "it has too many options to click through or too many buttons" or questions such as "why do I need a tutorial just to use your website?" were not uncommon. I started building a very simple web application that enables users to quickly query, graph and download datasets from popular development databases, no tutorials or training required. The idea being to eventually add additional databases and data visualization options.
                  </p>
                  <h3>Challenges</h3>
-                 <p>Initially, I was planning to build the app with React only, since the data queries are sent to an external API to retrieve the data. My intent was never to recreate the development database(s), rather, to make it easier to search popular datasets. However, I ran into some challenges connecting to the development database, mainly, it was often inaccessible or pretty slow so I decided to make an "archive" database of my own to store a few sample indicators, say for recent years or popular countries,to allow the user to access some data in the event that the external development database was not responding. Rails-5 has a light weight API only option that is a great fit for my purposes.</p>
+                 <p>Initially, I was planning to build the app with React only, since the data queries are sent to an external API to retrieve the data. My intent was never to recreate the development database(s), rather, to make it easier to search popular datasets. However, I ran into some challenges connecting to the development database, mainly, it was often inaccessible or pretty slow so I decided to make an "archive" database of my own to store a few sample indicators, say for recent years or popular countries, to allow the user to access some data in the event that the external development database was not responding. Rails-5 has a light weight API only option that is a great fit for my purposes.</p>
                 <br />
 
               <h3>Lessons learned: loving my little monster app </h3>
@@ -33,7 +33,7 @@ class Software extends Component {
 
                     <img src={ImageOne} />
 
-              <p>In an attempt to make this more performant, I translated the code into React, see the second gif below. React makes it much faster, but it is still slow by todays standard. Plus, the UI needs a lot more love and care, an essential next step in my plan!</p>
+              <p>In an attempt to make this more performant, I translated the jQuery sample code into React (e.g. pure JavaScript and JSX), see the second gif below. React makes it much faster, but it is still slow by todays standard. Plus, the UI needs a lot more love and care, an essential next step in my plan!</p>
 
                  <img src={ImageTwo} />
 
