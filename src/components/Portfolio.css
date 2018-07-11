@@ -4,6 +4,8 @@
  margin: 0 auto 2rem auto;
 }
 
-p {
-  font-size: 1rem;
+
+div.card-body {
+  max-width: 250px;
+  margin-bottom: 2rem;
 }

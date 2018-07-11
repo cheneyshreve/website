@@ -18,30 +18,30 @@ class Blog extends Component {
                  <div className="card-body d-flex flex-column align-items-start">
                    <strong className="d-inline-block mb-2 text-primary">Software</strong>
                    <h3 className="mb-0">
-                     <a className="text-dark">Recent projects</a>
+                     <a className="text-dark">Recent project</a>
                    </h3>
                    <div className="mb-1 text-muted">June 2018</div>
-                   <p className="card-text mb-auto">Simple web tool with React & Rails-5 API</p>
+                   <p className="card-text mb-auto">React & Rails-5 API</p>
                    <a href="/software">Continue reading</a>
                  </div>
                </div>
              </div>
            </div>
-     <div className="row mb-2">
-             <div className="col-md-6">
-               <div className="card flex-md-row mb-4 box-shadow h-md-250">
-                 <div className="card-body d-flex flex-column align-items-start">
-                   <strong className="d-inline-block mb-2 text-primary">Social & Environmental Sciences</strong>
-                   <h3 className="mb-0">
-                     <a className="text-dark">Gender & Disasters</a>
-                   </h3>
-                   <div className="mb-1 text-muted">May 2018</div>
-                   <p className="card-text mb-auto">Why disaggregated data collection matters for disasters.</p>
-                   <a href="/gender">Continue reading</a>
+           <div className="row mb-2">
+                   <div className="col-md-6">
+                     <div className="card flex-md-row mb-4 box-shadow h-md-250">
+                       <div className="card-body d-flex flex-column align-items-start">
+                         <strong className="d-inline-block mb-2 text-primary">Software</strong>
+                         <h3 className="mb-0">
+                           <a className="text-dark">Portfolio projects</a>
+                         </h3>
+                         <div className="mb-1 text-muted">July 2018</div>
+                         <p className="card-text mb-auto">React, Rails, HTML/CSS</p>
+                         <a href="/portfolio">Continue reading</a>
+                       </div>
+                     </div>
+                   </div>
                  </div>
-               </div>
-             </div>
-           </div>
            <div className="row mb-2">
                    <div className="col-md-6">
                      <div className="card flex-md-row mb-4 box-shadow h-md-250">
@@ -57,6 +57,21 @@ class Blog extends Component {
                      </div>
                    </div>
                  </div>
+         <div className="row mb-2">
+                 <div className="col-md-6">
+                   <div className="card flex-md-row mb-4 box-shadow h-md-250">
+                     <div className="card-body d-flex flex-column align-items-start">
+                       <strong className="d-inline-block mb-2 text-primary">Social & Environmental Sciences</strong>
+                       <h3 className="mb-0">
+                         <a className="text-dark">Gender & Disasters</a>
+                       </h3>
+                       <div className="mb-1 text-muted">May 2018</div>
+                       <p className="card-text mb-auto">Why disaggregated data collection matters for disasters.</p>
+                       <a href="/gender">Continue reading</a>
+                     </div>
+                   </div>
+                 </div>
+               </div>
         </div>
 
         <br />

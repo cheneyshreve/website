@@ -19,22 +19,15 @@ class WorldMap extends Component {
         { name: "Rwanda", coordinates: [29.8739,-1.9403], marker: 7 },
       ],
     }
-
-    this.handleCountryClick = this.handleCountryClick.bind(this)
-    this.handleMarkerClick = this.handleMarkerClick.bind(this)
   }
+  
   projection() {
     return geoMercator()
       .scale(100)
       .translate([ 800 / 2, 450 / 2 ])
   }
-  handleCountryClick(countryIndex) {
-    console.log("Clicked on country: ", this.state.worlddata[countryIndex])
-  }
-  handleMarkerClick(markerIndex) {
-    console.log("Marker: ", this.state.cities[markerIndex])
-  }
-  componentWillMount() {
+
+ componentWillMount() {
     fetch("/world-110m.json")
       .then(response => {
         if (response.status !== 200) {
@@ -61,7 +54,6 @@ class WorldMap extends Component {
                 fill={ `rgba(38,50,56,${ 1 / this.state.worlddata.length * i})` }
                 stroke="#FFFFFF"
                 strokeWidth={ 0.5 }
-                onClick={ () => this.handleCountryClick(i) }
               />
             ))
           }
@@ -77,7 +69,6 @@ class WorldMap extends Component {
                 fill="#E91E63"
                 stroke="#FFFFFF"
                 className="marker"
-                onClick={ () => this.handleMarkerClick(i) }
               />
             ))
           }
