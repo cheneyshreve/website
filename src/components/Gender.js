@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
+import './Gender.css';
 import NavBar from './NavBar.js';
 import Footer from './Footer.js';
 import Jumbotron from './Jumbotron.js';
-import './Gender.css';
+
 
 class Gender extends Component {
   render() {

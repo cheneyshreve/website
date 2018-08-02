@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
+import './Contact.css';
 import NavBar from './NavBar.js';
 import Footer from './Footer.js';
 import Jumbotron from './Jumbotron.js';
-import './Contact.css';
+
 
 class Contact extends Component {
   render() {

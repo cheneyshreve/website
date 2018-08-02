@@ -161,14 +161,12 @@ import html2canvas from 'html2canvas';
    }
     `}
     </pre>
-                 <h3>Learning outcomes</h3>
-                 <p>Making a dynamically populated dropdown from multiple external API calls in React required me to learn more about promises and the async keyword. Working with larger datasets to seed my Rails db required learning different ways to do this, and led to discovering how to use the open-url library in conjunction with the json library to do this. Having to incorporate an additional library because my data visualization did not have an export function reminds me to spend more time debugging installation errors with my initial library of choice, as it does not seem worth it to keep tacking on unnecessary libraries. One of the visible benefits of using React for this project was how much faster it is than the equivalent code in jQuery, which has other benefits I won't discuss here. The DHS offers some sample code for developers using their API in jQuery, I used this as a starting point and "translated" the code into React with much faster query results.</p>
 
                 <h3>Next steps</h3>
                 <p>Moving forward, I will add more data to my Rails archive, switch to the d3 library or highcharts, revise styling on the frontend, and move forward with TDD using Jest and Enzyme for React components, and RSpec for the Rails. To see the live version of the proof-of-concept, click the link below.
                 </p>
-                <li><a href="https://glacial-beach-89300.herokuapp.com" target="_blank" rel="noopener noreferrer"><span>Live Version Here</span></a></li>
-                <li><a href="https://cheneyshreve.github.io" target="_blank" rel="noopener noreferrer"><span>Additional projects & links to live apps on GitHub</span></a></li>
+                <li><a href="https://glacial-beach-89300.herokuapp.com/" target="_blank" rel="noopener noreferrer"><span>Live Version Here</span></a></li>
+                <li><a href="https://github.com/cheneyshreve" target="_blank" rel="noopener noreferrer"><span>Additional projects & links to live apps on GitHub</span></a></li>
                </div>
              </div>
            </div>

@@ -1,8 +1,9 @@
 import React, { Component } from 'react';
+import './Services.css';
 import NavBar from './NavBar.js';
 import Footer from './Footer.js';
 import Jumbotron from './Jumbotron.js';
-import './Services.css';
+
 
 class Services extends Component {
   render() {
