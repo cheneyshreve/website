@@ -9,18 +9,13 @@ class WorldMap extends Component {
     this.state = {
       worlddata: [],
       cities: [
-        { name: "Orting", coordinates: [-122.2043,47.0979], marker: 7  },
-        { name: "Bogota", coordinates: [-74.0721,4.7110], marker: 7 },
         { name: "Georgetown", coordinates: [-58.1551,6.8013], marker: 7 },
         { name: "Cumbria", coordinates: [-2.7975,54.5772], marker: 7 },
-        { name: "Nairobi", coordinates: [36.8219,-1.2921], marker: 7 },
-        { name: "Taiwan", coordinates: [120.9605,23.6978],marker: 7 },
         { name: "Seattle", coordinates: [-122.3321,47.6062], marker: 7 },
-        { name: "Rwanda", coordinates: [29.8739,-1.9403], marker: 7 },
       ],
     }
   }
-  
+
   projection() {
     return geoMercator()
       .scale(100)

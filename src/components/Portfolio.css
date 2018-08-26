@@ -1,11 +1,14 @@
 
-.container-fluid {
+
+.container, .container-fluid {
  text-align: justify;
- margin: 0 auto 2rem auto;
+ margin: 0 auto 0 auto;
 }
 
-
 div.card-body {
+  min-width: 200px;
   max-width: 250px;
-  margin-bottom: 2rem;
+  min-height: 200px;
+  max-height: 250px;
+  margin: 2rem;
 }
